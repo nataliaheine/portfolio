@@ -11,4 +11,4 @@ projekte = {
 select = st.radio("", list(projekte(keys()), horizontal=True)
 
 if select == "Toxic Comments Classification":
-  home.start()
+    home.start()
