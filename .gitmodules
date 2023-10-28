@@ -1,0 +1,3 @@
+[submodule "toxic_comments"]
+	path = toxic_comments
+	url = https://github.com/nataliaheine/toxic_comments.git
