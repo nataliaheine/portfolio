@@ -6,9 +6,8 @@ st.title("Natalia Heine")
 st.header("PORTFOLIO")
 
 projekte = {
-  "Toxic Comments Classification":toxic_comments, 
+  "Toxic Comments Classification": toxic_comments, 
   "AutoScout24 Car Price Prediction":None}
-select = st.radio("", list(projekte(keys()), horizontal=True)
+select = projekte(st.radio("", list(projekte(keys()), horizontal=True))
 
-if select == "Toxic Comments Classification":
-                  st.write("GGG")
+st.write(select)
