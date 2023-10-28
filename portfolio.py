@@ -8,6 +8,7 @@ st.header("PORTFOLIO")
 projekte = {
   "Toxic Comments Classification": toxic_comments, 
   "AutoScout24 Car Price Prediction":None}
-select = projekte(st.radio("", list(projekte(keys()), horizontal=True))
+select = st.radio("", list(projekte(keys()), horizontal=True))
+projekt = projekte(select)
 
-st.write(select)
+projekt.home.start()
